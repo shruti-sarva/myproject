@@ -1,0 +1,91 @@
+body {
+  margin :0;
+  background: url('scuffedstatic_dark_1920x1234.jpg');
+  background-size: cover;
+}
+.outer_form {
+display: inline-block;
+width: 50%;
+position: absolute;
+margin: auto;
+left:0;
+ right: 0;
+  margin-top: 3%;
+  /*border: 2px solid orange;
+ border-style: double;*/
+
+  padding-bottom: 10px;
+
+
+}
+.formholder
+{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.area {
+  padding:20px;
+  width:48%;
+  border-radius: 5px;
+}
+.topic {
+  padding:20px;
+}
+.input {
+  padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+.user1 {
+  padding:12px;
+}
+.lab {
+  display: inline-block;
+  padding: 12px;
+  margin-right: 25%;
+
+
+}
+.select {
+  padding:6px;
+  margin-right: 23%;
+  color:white;
+  font-family: calibri;
+  font-size: 18px;
+
+}
+.touch {
+  margin-top: 2%;
+    outline: none;
+    border: none;
+    padding: 12px;
+    background-color: #FF8C00;
+    color:white;
+    border-radius: 5px;
+    width:53%;
+    cursor: pointer;
+
+}
+.touch:hover {
+  background-color: white;
+  color:#FF8C00;
+}
+.tag {
+  padding: 15px;
+  font-family: calibri;
+  font-size: 18px;
+}
+.labs {
+  padding: 35px;
+  font-family: calibri;
+  font-size: 18px;
+  color:white;
+
+}
+
+.date {
+  border-radius: 5px;
+}

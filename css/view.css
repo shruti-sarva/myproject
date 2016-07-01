@@ -1,0 +1,39 @@
+body{
+  margin :0;
+   background: url('scuffedstatic_dark_1920x1234.jpg');
+  background-size: cover;
+}
+.art {
+
+margin-left: 1%;
+    display: block;
+    border: white solid 1px;
+    margin-top: 2%;
+    padding: 10px;
+    color:white;
+    margin-right:1%;
+}
+
+.user {
+   font-family: calibri;
+    font-size: 19px;
+    font-weight: bold;
+    color:white;
+}
+.touch {
+display: inline;
+    margin-top: 0.5%;
+    outline: none;
+    border: none;
+    padding: 4px;
+    color: white;
+    background-color: #FF8C00;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.touch:hover {
+  background-color: white;
+  color:#FF8C00;
+}
+
+

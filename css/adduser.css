@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+   background: url('scuffedstatic_dark_1920x1234.jpg');
+  background-size: cover;
+}
+.signup {
+  display: inline-block;
+  width: 25%;
+  background-color: #ECF0F1;
+  /*margin-left: 40%;
+  margin-top: 4%;*/
+  position: absolute;
+  left:0;
+  right: 0;
+  margin:auto;
+  margin-top: 4%;
+}
+.input
+{
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+  font-size: 18px;
+}
+.user, .outer_role
+{
+  display: inline-block;
+  width: 90%;
+  margin-top: 8%;
+
+}
+
+form header {
+
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+   color:#FF8C00;
+   margin-top: 5%;
+
+}
+.name {
+
+}
+.button {
+   width: 100%;
+  height: 37px;
+  background-color: #FF8C00;
+  color: white;
+  font-family: calibri;
+  font-size: 20px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.user_btn
+{
+  margin-bottom: 5%;
+}
+.formhold
+{
+  width: 100%;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #ECF0F1;
+}
+.drpdwn {
+  border-radius: 4px;
+    padding: 5px;
+    width: 70%;
+    font-family: claibri;
+    font-size: 16px;
+}
+.role, .role_name {
+  display: inline-block;
+}
+.role_name
+{
+  width: 60%;
+}
+.role
+{
+  width: 30%;
+  font-family: calibri;
+  font-size: 1.5em;
+}
+.outer_role
+{
+  text-align: left;
+}

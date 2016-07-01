@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+}
+.header
+{
+  background-color: #FF8C00;
+}
+.menu {
+ /* display: inline-block;
+*/
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 35px 27px;
+  text-decoration: none;
+}
+
+li a:hover
+{
+background-color: white;
+color:#FF8C00;
+
+}
+.nameout {
+  display: inline-block;
+  position: absolute;
+  top:5%;
+  right:12%;
+
+}
+.username
+{
+ /* position: absolute;
+  right: 15%;*/
+  /*display: inline-block;*/
+  /*top: 15px;*/
+  font-family: calibri;
+  font-size: 18px;
+  color:white;
+  margin: 0;
+}
+.log {
+  display: inline-block;
+  position: absolute;
+  top:5%;
+  right:4%;
+  margin: 0;
+}
+.logout {
+  /*position: absolute;
+  right: 4%;
+  display: inline-block;
+  top: 33px;*/
+  font-family: calibri;
+  font-size: 18px;
+  font-weight: 600px;
+  color:white;
+  text-decoration: none;
+}
