@@ -18,7 +18,6 @@ $uid = $_SESSION['uid'];
  echo '<form action="show.php" method="post" class = "art">
 <input type="text" hidden name="nid" value="'.$nid.'"/>
   <label class = "user">HEADING:</label>'.$heading.'<br>
-  <label class = "user">pid:</label>'.$pid.'<br>
   <label class="user">Description:</label>'.$descr.'<br>
   <input type="submit" name="submit" class = "touch" value = "Read more"/>
 </form>';

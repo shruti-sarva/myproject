@@ -10,7 +10,8 @@ include('../html/header.php');
 
 $uid = $_SESSION['uid'];
 $username = $_SESSION['username'];
-$id = $_SESSION['id'];
+ $id = $_SESSION['id'];
+$id = isset($_SESSION['id']) ? $_SESSION['id'] : NULL;
 if($id == 1 || $id == 2)
 {
 if(isset($_SESSION['username']))
@@ -73,6 +74,8 @@ else
 {
   echo "Welcome &nbsp" .  $username;
 }
+
+
 //include('footer.php');
 ?>
 </body>

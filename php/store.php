@@ -1,3 +1,6 @@
+ <html>
+ <link rel= "stylesheet" type="text/css" href="../css/store.css">
+ <body>
 <?php
 include('connect.php');
 if(isset($_POST['submit'])){
@@ -18,7 +21,7 @@ if(!empty($name)&& !empty($email)&& !empty($username)&& !empty($password))
     if($result1)
     {
 
-      echo "<p>You are already registered</p>";
+      echo "<p class = 'style'>You are already registered</p>";
     }
     else
     {
@@ -33,3 +36,5 @@ if(!empty($name)&& !empty($email)&& !empty($username)&& !empty($password))
 }
 
 ?>
+</body>
+</html>

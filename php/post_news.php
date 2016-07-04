@@ -41,14 +41,13 @@ if(empty($heading) && empty($comment)&& empty($date))
  {
   $nid = $row['News_id'];
   $heading = $row['Heading'];
-  $descr = substr($row['Description'],0,5);
+  $descr = substr($row['Description'],0,100);
   $pid = $row['p_id'];
   $tid = $row['Teachers_id'];
   if($uid == $tid){
  echo '<form action="show.php" method="post" class ="art">
        <input type="text" hidden name="nid" value="'.$nid.'"/>
        <label class = "user">HEADING:&nbsp</label>'.$heading.'<br>
-       <label>pid:</label>'.$pid.'<br>
        <label class = "user">Description:&nbsp</label>'.$descr.'<br>
        <input type="submit" class = "touch" name="submit" value = "Read more"/>
        </form>';
@@ -59,7 +58,6 @@ if(empty($heading) && empty($comment)&& empty($date))
 <form action="show.php" method="post" class = "art">
 <input type="text" hidden name="nid" value="'.$nid.'"/>
   <label class="user">HEADING:&nbsp </label>'.$heading.'<br>
-  <label>pid:</label>'.$pid.'<br>
   <label class = "user">Description:&nbsp </label>'.$descr.'<br>
   <input type="submit" name="submit" class = "touch" value = "Read more"/>
   </form>';

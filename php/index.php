@@ -16,6 +16,7 @@ include('connect.php');
 <!--<div align="">-->
 <div class="popup_log">Login</div>
 </div>
+
 <div class = "hold">
 <div class="triangleup"></div>
 <div class = "form">
@@ -32,8 +33,12 @@ include('connect.php');
 </form>
 </div>
 </div>
+<!-- <div >
+<img src ="../css/Happy-School-5-Tips-for-helping-students-in-NAPLAN-week.jpg">
+</div>
+ -->
 <?php
-include('footer.php');
+// include('footer.php');
 ?>
 </body>
 </html>

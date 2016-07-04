@@ -21,7 +21,6 @@ $sql41 = "SELECT * from T_essential where p_id = 1 order by Date desc";
        <input type="text" hidden name="eid" value="'.$eid.'"/>
        <label class = "user">TOPIC:</label>'.$topic.'<br>
        <label class = "user">HEADING:</label>'.$heading1.'<br>
-       <label class = "user">pid:</label>'.$pid.'<br>
        <label class = "user">Description:</label>'.$comment1.'<br>
        <input type="submit" name="submit" class = "touch" value = "Read more"/>
        </form>';

@@ -5,14 +5,17 @@
 </head>
 <?php
 
+ $id = isset($_SESSION['id']) ? $_SESSION['id'] : NULL;
 $id = $_SESSION['id'];
+
 $username = $_SESSION['username'];
 ?>
 <body>
-<!-- if(isset($_SESSION['id'])) { -->
+
 <div class = "header">
 <?php
 //session_start();
+
 echo "<div class= 'menu'><ul>";
 $menus = getMenu($id);
 foreach ($menus as $menu) {
@@ -80,7 +83,7 @@ else if($a == 2) {
 
  // return array( 'Home','Create_article','Create_essential','post_news' , 'post_essential');
 }
-else if($id == 3) {
+else if ($a == 3) {
   $menu = array();
   $menu[0]['title'] = 'Home';
   $menu[0]['link'] = 'Home.php';
@@ -94,12 +97,11 @@ else if($id == 3) {
   return $menu;
   //return array( 'Home','Essentials','Articles');
 }
-else {
+else  {
   echo "Not a registered user";
 }
 }
-// }
-// else {
-//   echo "Not a registered user";
-// }
+
+
+
 ?>

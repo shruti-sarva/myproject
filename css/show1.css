@@ -1,0 +1,46 @@
+.user
+{
+  display:block;
+  text-align: center;
+    font-family: calibri;
+    font-size: 2.5em;
+    color:white;
+}
+.user1 {
+  display:inline;
+  color:white;
+
+}
+.outer {
+  display: block;
+  color:white;
+
+}
+.date {
+  display: inline;
+  line-height: 250%;
+    margin-left: -40%;
+    color:white;
+
+}
+.name {
+  display:inline;
+  line-height: 250%;
+  margin-left: -46%;
+  color:white;
+
+}
+body{
+  text-align: center;
+  margin :0;
+  background: url('scuffedstatic_dark_1920x1234.jpg');
+  background-size: cover;
+
+}
+.line {
+   border: none;
+    border-top: 1px solid orange;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}

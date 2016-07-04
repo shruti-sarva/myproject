@@ -5,6 +5,10 @@ body
   background-size: cover;
 
 }
+/*img {
+width:100%;
+}*/
+
 .popup
 {
   background-color: rgb(255,140,0);
@@ -73,6 +77,9 @@ body
 }
 .hold{
   display: none;
+}
+.bg{
+
 }
 .popup_log:hover {
   color:#092E40;

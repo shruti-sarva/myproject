@@ -41,7 +41,7 @@ if(empty($topic) && empty($heading1) && empty($comment1)&& empty($date))
   $eid = $row['E_id'];
   $topic = $row['Topic'];
   $heading1 = $row['Heading'];
-  $comment1 = substr($row['Description'],0,5);
+  $comment1 = substr($row['Description'],0,100);
   $pid = $row['p_id'];
   $tid = $row['Teachers_id'];
   if($uid == $tid){
@@ -49,7 +49,6 @@ if(empty($topic) && empty($heading1) && empty($comment1)&& empty($date))
        <input type="text" hidden name="eid" value="'.$eid.'"/>
        <label class ="user">TOPIC:&nbsp</label>'.$topic.'<br>
        <label class ="user">HEADING:&nbsp</label>'.$heading1.'<br>
-       <label>pid:</label>'.$pid.'<br>
        <label class = "user">Description:&nbsp</label>'.$comment1.'<br>
        <input type="submit"  class = "touch" name="submit" value = "Read more"/>
        </form>';
@@ -61,8 +60,7 @@ if(empty($topic) && empty($heading1) && empty($comment1)&& empty($date))
   <input type="text" hidden name="eid" value="'.$eid.'"/>
   <label>TOPIC:</label>'.$topic.'<br>
   <label>HEADING:</label>'.$heading1.'<br>
-  <label>pid:</label>'.$pid.'<br>
-  <label>Description:</label>'.$comment1.'<br>
+  <label></label>'.$comment1.'<br>
   <input type="submit" name="submit" value = "Read more"/>
 </form>';
 

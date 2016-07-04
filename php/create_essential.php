@@ -7,12 +7,13 @@
 <body>
 <?php
 include('connect.php');
-include('../html/header.php');
+
 //session_start();
 $id = $_SESSION['id'];
-echo "$id";
+$id = isset($_SESSION['id']) ? $_SESSION['id'] : NULL;
 if($id == 2)
 {
+  include('../html/header.php');
 ?>
 <div  class = "outer_form">
 <form action="post_essential.php" method="post" class="formholder">
